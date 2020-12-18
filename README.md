@@ -1,4 +1,4 @@
-Hi! More personal stuff can be found at <https://git.kivikakk.ee/kivikakk>.
+Hi!
 
 ## Zig
 
