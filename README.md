@@ -1,6 +1,6 @@
 Hi!
 
-Personal work can be found at [`git.src.kameliya.ee`](https://git.src.kameliya.ee).
+Personal work can be found at [`git.kameliya.ee`](https://git.kameliya.ee).
 
 ## Zig
 
