@@ -1,10 +1,15 @@
-Hi!
-
-Personal work can be found at [`git.kameliya.ee`](https://git.kameliya.ee).
+Hi! More personal work can be found at [`git.kameliya.ee`](https://git.kameliya.ee).
 
 ## Zig
 
 Some Zig bits and pieces:
+
+### Embedded/osdev
+
+* [daintree](https://github.com/kivikakk/daintree) -- ARMv8-A kernel and UEFI bootloader
+* [dtb.zig](https://github.com/kivikakk/dtb.zig) -- device tree blob (flattened device tree) parser
+
+### Text processing
 
 * [koino](https://github.com/kivikakk/koino) -- CommonMark/GFM parser and renderer based on [Comrak](https://github.com/kivikakk/comrak)
 * [htmlentities.zig](https://github.com/kivikakk/htmlentities.zig) -- HTML entity data
