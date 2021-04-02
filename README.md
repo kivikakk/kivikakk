@@ -6,7 +6,7 @@ Some Zig bits and pieces:
 
 ### Embedded/osdev
 
-* [daintree](https://github.com/kivikakk/daintree) -- ARMv8-A and RV64GCV kernel and UEFI bootloader
+* [daintree](https://github.com/kivikakk/daintree) -- ARMv8-A and RV64GCS kernel and UEFI bootloader
 * [dtb.zig](https://github.com/kivikakk/dtb.zig) -- device tree blob (flattened device tree) parser
 
 ### Gemini
