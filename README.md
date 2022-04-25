@@ -1,5 +1,3 @@
-Hi! More personal work can be found at [`git.kameliya.ee`](https://git.kameliya.ee).
-
 ## Zig
 
 Some Zig bits and pieces:
