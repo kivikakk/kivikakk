@@ -1,6 +1,10 @@
-## Zig
+## CommonMark
 
-Some Zig bits and pieces:
+* [Comrak](https://github.com/kivikakk/comrak) -- Rust implementation of GitHub Flavored Markdown, used by Reddit, docs.rs, crates.io and others.
+* [koino](https://github.com/kivikakk/koino) -- Zig implementation of Comrak.
+* [gjtorikian/commonmarker](https://github.com/gjtorikian/commonmarker) -- Ruby gem implementing GitHub Flavored Markdown; wraps Comrak in 1.x series.
+
+## Zig
 
 ### Embedded/osdev
 
@@ -13,6 +17,5 @@ Some Zig bits and pieces:
 
 ### Text processing
 
-* [koino](https://github.com/kivikakk/koino) -- CommonMark/GFM parser and renderer based on [Comrak](https://github.com/kivikakk/comrak)
 * [htmlentities.zig](https://github.com/kivikakk/htmlentities.zig) -- HTML entity data
 * [libpcre.zig](https://github.com/kivikakk/libpcre.zig) -- libpcre bindings
