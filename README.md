@@ -16,10 +16,10 @@
 * [cmark-gfm-hs](https://github.com/kivikakk/cmark-gfm-hs) <kbd>haskell</kbd> <kbd>library</kbd> -- bindings to [cmark-gfm](https://github.com/github/cmark-gfm)
 * [kaksikud](https://github.com/kivikakk/kaksikud) <kbd>zig</kbd> <kbd>library</kbd> -- a Gemini server framework
 * [htmlentities.zig](https://github.com/kivikakk/htmlentities.zig) <kbd>zig</kbd> <kbd>library</kbd> -- HTML entity data
-* [libpcre.zig](https://github.com/kivikakk/libpcre.zig) <kbd>zig</kbd> <kbd>library</kbd> -- bindings to libpcre
 
 ## Misc
 
 * [diesel_ltree](https://github.com/kivikakk/diesel_ltree) <kbd>rust</kbd> <kbd>library</kbd> -- PostgreSQL [ltree extension](https://www.postgresql.org/docs/current/ltree.html) support for [Diesel](https://diesel.rs/)
-* [what-version-of-asciidoctor-is-github-on](https://github.com/kivikakk/what-version-of-asciidoctor-is-github-on#readme) <kbd>tool</kbd> -- sometimes you may wanna know?
+* [libpcre.zig](https://github.com/kivikakk/libpcre.zig) <kbd>zig</kbd> <kbd>library</kbd> -- bindings to libpcre
 * [golex](https://github.com/kivikakk/golex) <kbd>go</kbd> <kbd>tool</kbd> -- flex but Go (antique)
+* [what-version-of-asciidoctor-is-github-on](https://github.com/kivikakk/what-version-of-asciidoctor-is-github-on#readme) <kbd>tool</kbd> -- sometimes you may wanna know?
