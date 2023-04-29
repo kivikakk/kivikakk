@@ -1,6 +1,6 @@
 ## Gateware
 
-* [oled_i2c](https://github.com/kivikakk/oled_i2c) <kbd>amaranth</kbd> <kbd>driver</kbd> -- (WIP) SH1107 OLED driver, plus the I<sup>2</sup>C driver it uses, with virtual hardware testbench
+* [oled_i2c](https://github.com/kivikakk/oled_i2c) <kbd>amaranth</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- (WIP) SH1107 OLED driver, plus the I<sup>2</sup>C driver it uses, with virtual hardware testbench
 
 ## Kernel/embedded
 
