@@ -1,5 +1,3 @@
-Taking a break.
-
 ## Kernel/embedded
 
 * [daintree](https://github.com/kivikakk/daintree) <kbd>zig</kbd> <kbd>kernel</kbd> -- ARMv8-A and RV64GS kernel and UEFI bootloader
@@ -21,3 +19,7 @@ Taking a break.
 * [libpcre.zig](https://github.com/kivikakk/libpcre.zig) <kbd>zig</kbd> <kbd>library</kbd> -- bindings to libpcre
 * [golex](https://github.com/kivikakk/golex) <kbd>go</kbd> <kbd>tool</kbd> -- flex but Go (antique)
 * [what-version-of-asciidoctor-is-github-on](https://github.com/kivikakk/what-version-of-asciidoctor-is-github-on#readme) <kbd>tool</kbd> -- sometimes you may wanna know?
+
+## Co-author
+
+* [`charlottia`](https://github.com/charlottia) works mostly on Nix and FPGA stuff.
