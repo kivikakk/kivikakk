@@ -11,6 +11,10 @@
 * [Comrak](https://github.com/kivikakk/comrak) <kbd>rust</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation, used by Reddit, docs.rs, crates.io, and many more
 * [gjtorikian/commonmarker](https://github.com/gjtorikian/commonmarker) <kbd>ruby</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation; wraps Comrak in 1.x series
 
+### Misc
+
+* [recogedor](https://github.com/kivikakk/recogedor) <kbd>rust</kbd> <kbd>imap</kbd> <kbd>nix</kbd> -- cursed IMAP forwarding service containing a Lisp and bytecode VM
+* [furpoll](https://github.com/kivikakk/furpoll) <kbd>nix</kbd> <kbd>furry</kbd> -- polls your FurAffinity for notes and emails you about it
 
 ## Archived
 
@@ -21,6 +25,7 @@ I only have so much time. Please feel free to write to me if you have any questi
 * [daintree](https://github.com/kivikakk/daintree) <kbd>zig</kbd> <kbd>kernel</kbd> -- ARMv8-A and RV64GS kernel and UEFI bootloader
 * [dtb.zig](https://github.com/kivikakk/dtb.zig) <kbd>zig</kbd> <kbd>library</kbd> -- device tree blob (flattened device tree) parser
 * [armv8a](https://github.com/kivikakk/armv8a) <kbd>ruby</kbd> <kbd>tool</kbd> -- some calculators to help with ARMv8a debugging
+* [akari](https://github.com/kivikakk/akari) <kbd>c++</kbd> <kbd>kernel</kbd> -- baby's first Real C++ microkernel (antique)
 
 ### CommonMark
 
