@@ -10,11 +10,14 @@
 
 * [Comrak](https://github.com/kivikakk/comrak) <kbd>rust</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation, used by Reddit, docs.rs, crates.io, and many more
 * [gjtorikian/commonmarker](https://github.com/gjtorikian/commonmarker) <kbd>ruby</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation; wraps Comrak in 1.x series
+* [kivikakk/ex-markdown](https://github.com/kivikakk/ex-markdown) <kbd>elixir</kbd> <kbd>library</kbd> -- my fork of [ex-markdown](https://gitlab.com/nathanfaucett/ex-markdown) targetting modern Comrak
 
 ### Misc
 
 * [recogedor](https://github.com/kivikakk/recogedor) <kbd>rust</kbd> <kbd>imap</kbd> <kbd>nix</kbd> -- cursed IMAP forwarding service containing a Lisp and bytecode VM
 * [furpoll](https://github.com/kivikakk/furpoll) <kbd>nix</kbd> <kbd>furry</kbd> -- polls your FurAffinity for notes and emails you about it
+* [beffast](https://github.com/kivikakk/beffast) <kbd>arduino</kbd> <kbd>eink</kbd> -- has Lily been fed yet?
+* [kivikakk/akkoma](https://github.com/kivikakk/akkoma) <kbd>elixir</kbd> <kbd>activitypub</kbd> -- my fork of [Akkoma](https://akkoma.dev/AkkomaGang/akkoma/)
 
 ## Archived
 
