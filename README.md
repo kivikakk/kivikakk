@@ -1,23 +1,31 @@
+## Notice
+
+The source repository for this page is at <https://hrzn.ee/kivikakk/kivikakk>,
+and the links below are directed to that instance.  Mirrors of these
+repositories are also present on GitHub.
+
+
 ## Supported
 
 ### Gateware
 
-* [sh1107](https://github.com/kivikakk/sh1107) <kbd>amaranth</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- (WIP) SH1107 OLED driver, plus the I<sup>2</sup>C driver it uses, with virtual hardware testbench
-* [i2c_obs](https://github.com/kivikakk/i2c_obs) <kbd>amaranth</kbd> <kbd>tool</kbd> -- (WIP) I<sup>2</sup>C clock stretcher
-* [hdx](https://github.com/kivikakk/hdx) <kbd>nix</kbd> -- development environment for HDL including Amaranth, Yosys, nextpnr, ...
+* [sh1107](https://hrzn.ee/kivikakk/sh1107) <kbd>amaranth</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- (WIP) SH1107 OLED driver, plus the I<sup>2</sup>C driver it uses, with virtual hardware testbench
+* [i2c_obs](https://hrzn.ee/kivikakk/i2c_obs) <kbd>amaranth</kbd> <kbd>tool</kbd> -- (WIP) I<sup>2</sup>C clock stretcher
+* [hdx](https://hrzn.ee/kivikakk/hdx) <kbd>nix</kbd> -- development environment for HDL including Amaranth, Yosys, nextpnr, ...
 
 ### CommonMark
 
-* [Comrak](https://github.com/kivikakk/comrak) <kbd>rust</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation, used by Reddit, docs.rs, crates.io, and many more
+* [Comrak](https://hrzn.ee/kivikakk/comrak) <kbd>rust</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation, used by Reddit, docs.rs, crates.io, and many more
 * [gjtorikian/commonmarker](https://github.com/gjtorikian/commonmarker) <kbd>ruby</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation; wraps Comrak in 1.x series
-* [kivikakk/ex-markdown](https://github.com/kivikakk/ex-markdown) <kbd>elixir</kbd> <kbd>library</kbd> -- my fork of [ex-markdown](https://gitlab.com/nathanfaucett/ex-markdown) targetting modern Comrak
+* [kivikakk/ex-markdown](https://hrzn.ee/kivikakk/ex-markdown) <kbd>elixir</kbd> <kbd>library</kbd> -- my fork of [ex-markdown](https://gitlab.com/nathanfaucett/ex-markdown) targetting modern Comrak
 
 ### Misc
 
-* [recogedor](https://github.com/kivikakk/recogedor) <kbd>rust</kbd> <kbd>imap</kbd> <kbd>nix</kbd> -- cursed IMAP forwarding service containing a Lisp and bytecode VM
-* [furpoll](https://github.com/kivikakk/furpoll) <kbd>nix</kbd> <kbd>furry</kbd> -- polls your FurAffinity for notes and emails you about it
-* [beffast](https://github.com/kivikakk/beffast) <kbd>arduino</kbd> <kbd>eink</kbd> -- has Lily been fed yet?
-* [kivikakk/akkoma](https://github.com/kivikakk/akkoma) <kbd>elixir</kbd> <kbd>activitypub</kbd> -- my fork of [Akkoma](https://akkoma.dev/AkkomaGang/akkoma/)
+* [recogedor](https://hrzn.ee/kivikakk/recogedor) <kbd>rust</kbd> <kbd>imap</kbd> <kbd>nix</kbd> -- cursed IMAP forwarding service containing a Lisp and bytecode VM
+* [furpoll](https://hrzn.ee/kivikakk/furpoll) <kbd>nix</kbd> <kbd>furry</kbd> -- polls your FurAffinity for notes and emails you about it
+* [beffast](https://hrzn.ee/kivikakk/beffast) <kbd>arduino</kbd> <kbd>eink</kbd> -- has Lily been fed yet?
+* [kivikakk/akkoma](https://hrzn.ee/kivikakk/akkoma) <kbd>elixir</kbd> <kbd>activitypub</kbd> -- my fork of [Akkoma](https://akkoma.dev/AkkomaGang/akkoma/)
+
 
 ## Archived
 
@@ -25,22 +33,22 @@ I only have so much time. Please feel free to write to me if you have any questi
 
 ### Kernel/embedded
 
-* [daintree](https://github.com/kivikakk/daintree) <kbd>zig</kbd> <kbd>kernel</kbd> -- ARMv8-A and RV64GS kernel and UEFI bootloader
-* [dtb.zig](https://github.com/kivikakk/dtb.zig) <kbd>zig</kbd> <kbd>library</kbd> -- device tree blob (flattened device tree) parser
-* [armv8a](https://github.com/kivikakk/armv8a) <kbd>ruby</kbd> <kbd>tool</kbd> -- some calculators to help with ARMv8a debugging
-* [akari](https://github.com/kivikakk/akari) <kbd>c++</kbd> <kbd>kernel</kbd> -- baby's first Real C++ microkernel (antique)
+* [daintree](https://hrzn.ee/kivikakk/daintree) <kbd>zig</kbd> <kbd>kernel</kbd> -- ARMv8-A and RV64GS kernel and UEFI bootloader
+* [dtb.zig](https://hrzn.ee/kivikakk/dtb.zig) <kbd>zig</kbd> <kbd>library</kbd> -- device tree blob (flattened device tree) parser
+* [armv8a](https://hrzn.ee/kivikakk/armv8a) <kbd>ruby</kbd> <kbd>tool</kbd> -- some calculators to help with ARMv8a debugging
+* [akari](https://hrzn.ee/kivikakk/akari) <kbd>c++</kbd> <kbd>kernel</kbd> -- baby's first Real C++ microkernel (antique)
 
 ### CommonMark
 
-* [koino](https://github.com/kivikakk/koino) <kbd>zig</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation (port of Comrak)
-* [cmark-gfm-hs](https://github.com/kivikakk/cmark-gfm-hs) <kbd>haskell</kbd> <kbd>library</kbd> -- bindings to [cmark-gfm](https://github.com/github/cmark-gfm)
+* [koino](https://hrzn.ee/kivikakk/koino) <kbd>zig</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation (port of Comrak)
+* [cmark-gfm-hs](https://hrzn.ee/kivikakk/cmark-gfm-hs) <kbd>haskell</kbd> <kbd>library</kbd> -- bindings to [cmark-gfm](https://github.com/github/cmark-gfm)
 
 ### Misc
 
-* [kaksikud](https://github.com/kivikakk/kaksikud) <kbd>zig</kbd> <kbd>library</kbd> -- a Gemini server framework
-* [htmlentities.zig](https://github.com/kivikakk/htmlentities.zig) <kbd>zig</kbd> <kbd>library</kbd> -- HTML entity data
-* [libpcre.zig](https://github.com/kivikakk/libpcre.zig) <kbd>zig</kbd> <kbd>library</kbd> -- bindings to libpcre
-* [golex](https://github.com/kivikakk/golex) <kbd>go</kbd> <kbd>tool</kbd> -- flex but Go (antique)
+* [kaksikud](https://hrzn.ee/kivikakk/kaksikud) <kbd>zig</kbd> <kbd>library</kbd> -- a Gemini server framework
+* [htmlentities.zig](https://hrzn.ee/kivikakk/htmlentities.zig) <kbd>zig</kbd> <kbd>library</kbd> -- HTML entity data
+* [libpcre.zig](https://hrzn.ee/kivikakk/libpcre.zig) <kbd>zig</kbd> <kbd>library</kbd> -- bindings to libpcre
+* [golex](https://hrzn.ee/kivikakk/golex) <kbd>go</kbd> <kbd>tool</kbd> -- flex but Go (antique)
 * [what-version-of-asciidoctor-is-github-on](https://github.com/kivikakk/what-version-of-asciidoctor-is-github-on#readme) <kbd>tool</kbd> -- sometimes you may wanna know?
 
 
