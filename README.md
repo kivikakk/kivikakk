@@ -1,11 +1,9 @@
-## Notice
+## Welcome
 
-The source root this page is at <https://hrzn.ee/kivikakk>, and the links below
-are directed to that instance.  Mirrors of these repositories are also present
-on GitHub.
+Hi there!  Welcome to [my forge](https://hrzn.ee/kivikakk), or its [mirror on
+GitHub](https://github.com/kivikakk).  Source repositories are available here,
+with collaboration mirrors of popular repos also available on GitHub.
 
-
-## Supported
 
 ### Gateware
 
@@ -17,14 +15,15 @@ on GitHub.
 
 * [Comrak](https://hrzn.ee/kivikakk/comrak) <kbd>rust</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation, used by Reddit, docs.rs, crates.io, and many more
 * [gjtorikian/commonmarker](https://github.com/gjtorikian/commonmarker) <kbd>ruby</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation; wraps Comrak in 1.x series
-* [kivikakk/ex-markdown](https://hrzn.ee/kivikakk/ex-markdown) <kbd>elixir</kbd> <kbd>library</kbd> -- my fork of [ex-markdown](https://gitlab.com/nathanfaucett/ex-markdown) targetting modern Comrak
+* [ex-markdown](https://hrzn.ee/kivikakk/ex-markdown) <kbd>elixir</kbd> <kbd>library</kbd> -- my fork of [ex-markdown](https://gitlab.com/nathanfaucett/ex-markdown) targetting modern Comrak
 
-### Misc
+### EOS
 
 * [recogedor](https://hrzn.ee/kivikakk/recogedor) <kbd>rust</kbd> <kbd>imap</kbd> <kbd>nix</kbd> -- cursed IMAP forwarding service containing a Lisp and bytecode VM
 * [furpoll](https://hrzn.ee/kivikakk/furpoll) <kbd>nix</kbd> <kbd>furry</kbd> -- polls your FurAffinity for notes and emails you about it
 * [beffast](https://hrzn.ee/kivikakk/beffast) <kbd>arduino</kbd> <kbd>eink</kbd> -- has Lily been fed yet?
-* [kivikakk/akkoma](https://hrzn.ee/kivikakk/akkoma) <kbd>elixir</kbd> <kbd>activitypub</kbd> -- my fork of [Akkoma](https://akkoma.dev/AkkomaGang/akkoma/)
+* [akkoma](https://hrzn.ee/kivikakk/akkoma) <kbd>elixir</kbd> <kbd>activitypub</kbd> -- my fork of [Akkoma](https://akkoma.dev/AkkomaGang/akkoma/)
+* [forgejo](https://hrzn.ee/kivikakk/forgejo) <kbd>go</kbd> <kbd>git</kbd> -- my fork of [Forgejo](https://codeberg.org/forgejo/forgejo)
 
 
 ## Archived
