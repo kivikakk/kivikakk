@@ -56,7 +56,7 @@ I only have so much time. Please feel free to write to me if you have any questi
 
 Thanks to my co-authors. :)
 
-* [TheConnor/diesel_ltree](https://github.com/TheConnor/diesel_ltree) <kbd>rust</kbd> <kbd>library</kbd> -- PostgreSQL [ltree extension](https://www.postgresql.org/docs/current/ltree.html) support for [Diesel](https://diesel.rs/)
+* [TheConner/diesel_ltree](https://github.com/TheConner/diesel_ltree) <kbd>rust</kbd> <kbd>library</kbd> -- PostgreSQL [ltree extension](https://www.postgresql.org/docs/current/ltree.html) support for [Diesel](https://diesel.rs/)
 
 
 ## Who?
