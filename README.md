@@ -1,8 +1,8 @@
 ## Notice
 
-The source repository for this page is at <https://hrzn.ee/kivikakk/kivikakk>,
-and the links below are directed to that instance.  Mirrors of these
-repositories are also present on GitHub.
+The source root this page is at <https://hrzn.ee/kivikakk>, and the links below
+are directed to that instance.  Mirrors of these repositories are also present
+on GitHub.
 
 
 ## Supported
