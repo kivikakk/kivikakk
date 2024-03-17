@@ -7,9 +7,7 @@ with collaboration mirrors of popular repos also available on GitHub.
 
 ### Gateware
 
-* [sh1107](https://hrzn.ee/kivikakk/sh1107) <kbd>amaranth</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- (WIP) SH1107 OLED driver, plus the I<sup>2</sup>C driver it uses, with virtual hardware testbench
-* [i2c_obs](https://hrzn.ee/kivikakk/i2c_obs) <kbd>amaranth</kbd> <kbd>tool</kbd> -- (WIP) I<sup>2</sup>C clock stretcher
-* [hdx](https://hrzn.ee/kivikakk/hdx) <kbd>nix</kbd> -- development environment for HDL including Amaranth, Yosys, nextpnr, ...
+* eri <kbd>zig</kbd> -- (WIP) experimental HDL
 
 ### CommonMark
 
@@ -29,6 +27,12 @@ with collaboration mirrors of popular repos also available on GitHub.
 ## Archived
 
 I only have so much time. Please feel free to write to me if you have any questions, or if you're interested in adopting a project!
+
+### Gateware
+
+* [sh1107](https://hrzn.ee/kivikakk/sh1107) <kbd>zig</kbd> <kbd>driver</kbd> -- (WIP) SH1107 OLED driver, plus the I<sup>2</sup>C driver it uses, with virtual hardware testbench
+* [i2c_obs](https://hrzn.ee/kivikakk/i2c_obs) <kbd>tool</kbd> -- (WIP) I<sup>2</sup>C clock stretcher
+* [hdx](https://hrzn.ee/kivikakk/hdx) <kbd>nix</kbd> -- development environment for HDL
 
 ### Kernel/embedded
 
