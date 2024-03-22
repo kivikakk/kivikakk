@@ -5,22 +5,15 @@ GitHub](https://github.com/kivikakk).  Source repositories are available here,
 with collaboration mirrors of popular repos also available on GitHub.
 
 
-### Gateware
-
-* eri <kbd>zig</kbd> -- (WIP) experimental HDL
-
 ### CommonMark
 
 * [Comrak](https://hrzn.ee/kivikakk/comrak) <kbd>rust</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation, used by Reddit, docs.rs, crates.io, and many more
 * [gjtorikian/commonmarker](https://github.com/gjtorikian/commonmarker) <kbd>ruby</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation; wraps Comrak in 1.x series
-* [ex-markdown](https://hrzn.ee/kivikakk/ex-markdown) <kbd>elixir</kbd> <kbd>library</kbd> -- my fork of [ex-markdown](https://gitlab.com/nathanfaucett/ex-markdown) targetting modern Comrak
 
 ### EOS
 
 * [recogedor](https://hrzn.ee/kivikakk/recogedor) <kbd>rust</kbd> <kbd>imap</kbd> <kbd>nix</kbd> -- cursed IMAP forwarding service containing a Lisp and bytecode VM
 * [furpoll](https://hrzn.ee/kivikakk/furpoll) <kbd>nix</kbd> <kbd>furry</kbd> -- polls your FurAffinity for notes and emails you about it
-* [beffast](https://hrzn.ee/kivikakk/beffast) <kbd>arduino</kbd> <kbd>eink</kbd> -- has Lily been fed yet?
-* [akkoma](https://hrzn.ee/kivikakk/akkoma) <kbd>elixir</kbd> <kbd>activitypub</kbd> -- my fork of [Akkoma](https://akkoma.dev/AkkomaGang/akkoma/)
 * [forgejo](https://hrzn.ee/kivikakk/forgejo) <kbd>go</kbd> <kbd>git</kbd> -- my fork of [Forgejo](https://codeberg.org/forgejo/forgejo)
 
 
@@ -45,6 +38,12 @@ I only have so much time. Please feel free to write to me if you have any questi
 
 * [koino](https://hrzn.ee/kivikakk/koino) <kbd>zig</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation (port of Comrak)
 * [cmark-gfm-hs](https://hrzn.ee/kivikakk/cmark-gfm-hs) <kbd>haskell</kbd> <kbd>library</kbd> -- bindings to [cmark-gfm](https://github.com/github/cmark-gfm)
+* [ex-markdown](https://hrzn.ee/kivikakk/ex-markdown) <kbd>elixir</kbd> <kbd>library</kbd> -- my fork of [ex-markdown](https://gitlab.com/nathanfaucett/ex-markdown) targetting modern Comrak
+
+### EOS
+
+* [beffast](https://hrzn.ee/kivikakk/beffast) <kbd>arduino</kbd> <kbd>eink</kbd> -- has Lily been fed yet?
+* [akkoma](https://hrzn.ee/kivikakk/akkoma) <kbd>elixir</kbd> <kbd>activitypub</kbd> -- my fork of [Akkoma](https://akkoma.dev/AkkomaGang/akkoma/)
 
 ### Misc
 
