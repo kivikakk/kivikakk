@@ -9,11 +9,16 @@ with collaboration mirrors of popular repos also available on GitHub.
 
 * [Comrak](https://github.com/kivikakk/comrak) <kbd>rust</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation, used by Reddit, docs.rs, crates.io, and many more
 * [gjtorikian/commonmarker](https://github.com/gjtorikian/commonmarker) <kbd>ruby</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation; wraps Comrak in 1.x series
+* [koino](https://hrzn.ee/kivikakk/koino) <kbd>zig</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation (port of Comrak)
 
-### EOS
+### Misc
 
-* [recogedor](https://hrzn.ee/kivikakk/recogedor) <kbd>rust</kbd> <kbd>imap</kbd> <kbd>nix</kbd> -- cursed IMAP forwarding service containing a Lisp and bytecode VM
+* [htmlentities.zig](https://hrzn.ee/kivikakk/htmlentities.zig) <kbd>zig</kbd> <kbd>library</kbd> -- HTML entity data
+* [libpcre.zig](https://hrzn.ee/kivikakk/libpcre.zig) <kbd>zig</kbd> <kbd>library</kbd> -- bindings to libpcre
 * [furpoll](https://hrzn.ee/kivikakk/furpoll) <kbd>nix</kbd> <kbd>furry</kbd> -- polls your FurAffinity for notes and emails you about it
+
+### Forks
+
 * [forgejo](https://hrzn.ee/kivikakk/forgejo) <kbd>go</kbd> <kbd>git</kbd> -- my fork of [Forgejo](https://codeberg.org/forgejo/forgejo)
 
 
@@ -37,22 +42,20 @@ I only have so much time. Please feel free to write to me if you have any questi
 
 ### CommonMark
 
-* [koino](https://hrzn.ee/kivikakk/koino) <kbd>zig</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation (port of Comrak)
 * [cmark-gfm-hs](https://hrzn.ee/kivikakk/cmark-gfm-hs) <kbd>haskell</kbd> <kbd>library</kbd> -- bindings to [cmark-gfm](https://github.com/github/cmark-gfm)
-* [ex-markdown](https://hrzn.ee/kivikakk/ex-markdown) <kbd>elixir</kbd> <kbd>library</kbd> -- my fork of [ex-markdown](https://gitlab.com/nathanfaucett/ex-markdown) targetting modern Comrak
-
-### EOS
-
-* [beffast](https://hrzn.ee/kivikakk/beffast) <kbd>arduino</kbd> <kbd>eink</kbd> -- has Lily been fed yet?
-* [akkoma](https://hrzn.ee/kivikakk/akkoma) <kbd>elixir</kbd> <kbd>activitypub</kbd> -- my fork of [Akkoma](https://akkoma.dev/AkkomaGang/akkoma/)
 
 ### Misc
 
+* [beffast](https://hrzn.ee/kivikakk/beffast) <kbd>arduino</kbd> <kbd>eink</kbd> -- has Lily been fed yet?
+* [recogedor](https://hrzn.ee/kivikakk/recogedor) <kbd>rust</kbd> <kbd>imap</kbd> <kbd>nix</kbd> -- cursed IMAP forwarding service containing a Lisp and bytecode VM
 * [kaksikud](https://hrzn.ee/kivikakk/kaksikud) <kbd>zig</kbd> <kbd>library</kbd> -- a Gemini server framework
-* [htmlentities.zig](https://hrzn.ee/kivikakk/htmlentities.zig) <kbd>zig</kbd> <kbd>library</kbd> -- HTML entity data
-* [libpcre.zig](https://hrzn.ee/kivikakk/libpcre.zig) <kbd>zig</kbd> <kbd>library</kbd> -- bindings to libpcre
 * [golex](https://hrzn.ee/kivikakk/golex) <kbd>go</kbd> <kbd>tool</kbd> -- flex but Go (antique)
 * [what-version-of-asciidoctor-is-github-on](https://github.com/kivikakk/what-version-of-asciidoctor-is-github-on#readme) <kbd>tool</kbd> -- sometimes you may wanna know?
+
+### Forks
+
+* [ex-markdown](https://hrzn.ee/kivikakk/ex-markdown) <kbd>elixir</kbd> <kbd>library</kbd> -- my fork of [ex-markdown](https://gitlab.com/nathanfaucett/ex-markdown) targetting modern Comrak
+* [akkoma](https://hrzn.ee/kivikakk/akkoma) <kbd>elixir</kbd> <kbd>activitypub</kbd> -- my fork of [Akkoma](https://akkoma.dev/AkkomaGang/akkoma/)
 
 
 ## Spirited away
