@@ -67,4 +67,4 @@ Thanks to my co-authors. :)
 
 ## Who?
 
-* [`charlottia`](https://github.com/charlottia) was my working name while starting on gateware and Nix.
+* `charlottia` was my working name while starting on gateware and Nix.
