@@ -9,12 +9,12 @@ with collaboration mirrors of popular repos also available on GitHub.
 
 * [Comrak](https://github.com/kivikakk/comrak) <kbd>rust</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation, used by Reddit, docs.rs, crates.io, and many more
 * [gjtorikian/commonmarker](https://github.com/gjtorikian/commonmarker) <kbd>ruby</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation; wraps Comrak in 1.x series
-* [koino](https://hrzn.ee/kivikakk/koino) <kbd>zig</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation (port of Comrak)
+* [koino](https://github.com/kivikakk/koino) <kbd>zig</kbd> <kbd>library</kbd> -- GitHub Flavored Markdown implementation (port of Comrak)
 
 ### Misc
 
-* [htmlentities.zig](https://hrzn.ee/kivikakk/htmlentities.zig) <kbd>zig</kbd> <kbd>library</kbd> -- HTML entity data
-* [libpcre.zig](https://hrzn.ee/kivikakk/libpcre.zig) <kbd>zig</kbd> <kbd>library</kbd> -- bindings to libpcre
+* [htmlentities.zig](https://github.com/kivikakk/htmlentities.zig) <kbd>zig</kbd> <kbd>library</kbd> -- HTML entity data
+* [libpcre.zig](https://github.com/kivikakk/libpcre.zig) <kbd>zig</kbd> <kbd>library</kbd> -- bindings to libpcre
 * [furpoll](https://hrzn.ee/kivikakk/furpoll) <kbd>nix</kbd> <kbd>furry</kbd> -- polls your FurAffinity for notes and emails you about it
 
 ### Forks
@@ -31,7 +31,7 @@ I only have so much time. Please feel free to write to me if you have any questi
 * [sae](https://hrzn.ee/kivikakk/sae) -- RV32I softcore
 * [sh1107](https://hrzn.ee/kivikakk/sh1107) <kbd>zig</kbd> <kbd>driver</kbd> -- (WIP) SH1107 OLED driver, plus the I<sup>2</sup>C driver it uses, with virtual hardware testbench
 * [i2c_obs](https://hrzn.ee/kivikakk/i2c_obs) <kbd>tool</kbd> -- (WIP) I<sup>2</sup>C clock stretcher
-* [hdx](https://hrzn.ee/kivikakk/hdx) <kbd>nix</kbd> -- development environment for HDL
+* [hdx](https://github.com/kivikakk/hdx) <kbd>nix</kbd> -- development environment for HDL
 
 ### Kernel/embedded
 
