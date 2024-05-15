@@ -2,6 +2,9 @@
 
 Hi there!
 
+### Gateware
+
+* [Chryse](https://github.com/chryse-hdl/chryse) <kbd>chisel</kbd> <kbd>scala</kbd> -- framework for building Chisel projects
 
 ### CommonMark
 
