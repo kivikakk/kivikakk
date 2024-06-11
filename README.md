@@ -5,6 +5,7 @@ Hi there!
 ### Gateware
 
 * [Chryse](https://github.com/chryse-hdl/chryse) <kbd>chisel</kbd> <kbd>scala</kbd> -- framework for building Chisel projects
+* [ili9341spi] <kbd>chisel</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- current testbed for Chisel: ILI9341 SPI LCD driver, plus virtual hardware testbench
 
 ### CommonMark
 
