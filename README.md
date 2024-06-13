@@ -4,7 +4,7 @@ Hi there!
 
 ### Gateware
 
-* [Chryse](https://github.com/chryse-hdl/chryse) <kbd>chisel</kbd> <kbd>scala</kbd> -- framework for building Chisel projects
+* [niar](https://github.com/kivikakk/niar) <kbd>amaranth</kbd> <kbd>python</kbd> -- framework for building Amaranth projects
 * [ili9341spi](https://github.com/kivikakk/ili9341spi) <kbd>chisel</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- current testbed for Chryse: ILI9341 SPI LCD driver, plus virtual hardware testbench
 
 ### CommonMark
@@ -26,10 +26,11 @@ I only have so much time. Please feel free to write to me if you have any questi
 
 ### Gateware
 
-* [sae](https://github.com/kivikakk/sae) -- RV32I softcore
-* [sh1107](https://github.com/kivikakk/sh1107) <kbd>zig</kbd> <kbd>driver</kbd> -- (WIP) SH1107 OLED driver, plus the I<sup>2</sup>C driver it uses, with virtual hardware testbench
-* [i2c_obs](https://github.com/kivikakk/i2c_obs) <kbd>tool</kbd> -- (WIP) I<sup>2</sup>C clock stretcher
-* [hdx](https://github.com/kivikakk/hdx) <kbd>nix</kbd> -- development environment for HDL
+* [Chryse](https://github.com/kivikakk/chryse) <kbd>chisel</kbd> <kbd>scala</kbd> -- framework for building Chisel projects
+* [sae](https://github.com/kivikakk/sae) <kbd>amaranth</kbd> -- RV32I softcore
+* [sh1107](https://github.com/kivikakk/sh1107) <kbd>amaranth</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- (WIP) SH1107 OLED driver, plus the I<sup>2</sup>C driver it uses, with virtual hardware testbench
+* [i2c_obs](https://github.com/kivikakk/i2c_obs) <kbd>amaranth</kbd> <kbd>tool</kbd> -- (WIP) I<sup>2</sup>C clock stretcher
+* [hdx](https://github.com/kivikakk/hdx) <kbd>amaranth</kbd> <kbd>nix</kbd> -- development environment for HDL
 
 ### Kernel/embedded
 
