@@ -2,10 +2,11 @@
 
 Hi there!
 
-### Gateware
+### Digital design
 
 * [Niar](https://github.com/kivikakk/niar) <kbd>amaranth</kbd> <kbd>python</kbd> -- framework for building Amaranth projects
 * [ili9341spi](https://github.com/kivikakk/ili9341spi) <kbd>amaranth</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- current testbed for Niar: ILI9341 SPI LCD driver, plus virtual hardware testbench
+* [zxxrtl](https://github.com/kivikakk/zxxrtl) <kbd>yosys</kbd> <kbd>zig</kbd> -- bindings to Yosys' CXXRTL for Zig
 
 ### CommonMark
 
@@ -24,7 +25,7 @@ Hi there!
 
 I only have so much time. Please feel free to write to me if you have any questions, or if you're interested in adopting a project!
 
-### Gateware
+### Digital design
 
 * [Chryse](https://github.com/kivikakk/chryse) <kbd>chisel</kbd> <kbd>scala</kbd> -- framework for building Chisel projects
 * [sae](https://github.com/kivikakk/sae) <kbd>amaranth</kbd> -- RV32I softcore
