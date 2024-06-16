@@ -4,8 +4,8 @@ Hi there!
 
 ### Gateware
 
-* [niar](https://github.com/kivikakk/niar) <kbd>amaranth</kbd> <kbd>python</kbd> -- framework for building Amaranth projects
-* [ili9341spi](https://github.com/kivikakk/ili9341spi) <kbd>chisel</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- current testbed for Chryse: ILI9341 SPI LCD driver, plus virtual hardware testbench
+* [Niar](https://github.com/kivikakk/niar) <kbd>amaranth</kbd> <kbd>python</kbd> -- framework for building Amaranth projects
+* [ili9341spi](https://github.com/kivikakk/ili9341spi) <kbd>amaranth</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- current testbed for Niar: ILI9341 SPI LCD driver, plus virtual hardware testbench
 
 ### CommonMark
 
