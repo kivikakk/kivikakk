@@ -5,7 +5,7 @@ Hi there!
 ### Digital design
 
 * [Niar](https://github.com/kivikakk/niar) <kbd>amaranth</kbd> <kbd>python</kbd> -- framework for building Amaranth projects
-* [sae](https://github.com/kivikakk/sae) <kbd>amaranth</kbd> -- RV32I softcore
+* [Sae](https://github.com/kivikakk/sae) <kbd>amaranth</kbd> -- RV32I softcore
 * [ili9341spi](https://github.com/kivikakk/ili9341spi) <kbd>amaranth</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- previous testbed for Niar: ILI9341 SPI LCD driver, plus virtual hardware testbench
 * [zxxrtl](https://github.com/kivikakk/zxxrtl) <kbd>yosys</kbd> <kbd>zig</kbd> -- bindings to Yosys' CXXRTL for Zig
 
