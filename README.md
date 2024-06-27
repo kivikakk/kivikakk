@@ -5,7 +5,8 @@ Hi there!
 ### Digital design
 
 * [Niar](https://github.com/kivikakk/niar) <kbd>amaranth</kbd> <kbd>python</kbd> -- framework for building Amaranth projects
-* [ili9341spi](https://github.com/kivikakk/ili9341spi) <kbd>amaranth</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- current testbed for Niar: ILI9341 SPI LCD driver, plus virtual hardware testbench
+* [sae](https://github.com/kivikakk/sae) <kbd>amaranth</kbd> -- RV32I softcore
+* [ili9341spi](https://github.com/kivikakk/ili9341spi) <kbd>amaranth</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- previous testbed for Niar: ILI9341 SPI LCD driver, plus virtual hardware testbench
 * [zxxrtl](https://github.com/kivikakk/zxxrtl) <kbd>yosys</kbd> <kbd>zig</kbd> -- bindings to Yosys' CXXRTL for Zig
 
 ### CommonMark
@@ -28,7 +29,6 @@ I only have so much time. Please feel free to write to me if you have any questi
 ### Digital design
 
 * [Chryse](https://github.com/kivikakk/chryse) <kbd>chisel</kbd> <kbd>scala</kbd> -- framework for building Chisel projects
-* [sae](https://github.com/kivikakk/sae) <kbd>amaranth</kbd> -- RV32I softcore
 * [sh1107](https://github.com/kivikakk/sh1107) <kbd>amaranth</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- (WIP) SH1107 OLED driver, plus the I<sup>2</sup>C driver it uses, with virtual hardware testbench
 * [i2c_obs](https://github.com/kivikakk/i2c_obs) <kbd>amaranth</kbd> <kbd>tool</kbd> -- (WIP) I<sup>2</sup>C clock stretcher
 * [hdx](https://github.com/kivikakk/hdx) <kbd>amaranth</kbd> <kbd>nix</kbd> -- development environment for HDL
