@@ -200,8 +200,7 @@ checksum = "0b6a852b24ab71dffc585bcb46eaf7959d175cb865a7152e35b348d1b2960422"
 [[package]]
 name = "comrak"
 version = "0.24.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5a972c8ec1be8065f7b597b5f7f5b3be535db780280644aebdcd1966decf58dc"
+source = "git+https://github.com/kivikakk/comrak.git?branch=node-from#2e74e20a4c83fb26e93132f17758027b5443b06a"
 dependencies = [
  "clap",
  "derive_builder",

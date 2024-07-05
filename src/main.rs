@@ -1,15 +1,11 @@
-use std::{cell::RefCell, error::Error};
+use std::error::Error;
 
 use comrak::{
     format_commonmark,
-    nodes::{Ast, AstNode, LineColumn, NodeLink, NodeList, NodeValue},
+    nodes::{NodeLink, NodeList, NodeValue},
     parse_document, Arena, Options,
 };
 use yaml_rust2::YamlLoader;
-
-fn mknode<'a>(arena: &'a Arena<AstNode<'a>>, sp: LineColumn, value: NodeValue) -> &'a AstNode<'a> {
-    arena.alloc(AstNode::new(RefCell::new(Ast::new(value, sp))))
-}
 
 fn main() -> Result<(), Box<dyn Error>> {
     let arena = Arena::new();
@@ -19,42 +15,37 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     for node in root.children() {
         let ast = node.data.borrow_mut();
-        let sp = ast.sourcepos.start;
 
         if let NodeValue::CodeBlock(ref ncb) = ast.value {
             if ncb.info == "yaml" {
                 let yaml = YamlLoader::load_from_str(&ncb.literal)?;
 
-                let list = mknode(&arena, sp, NodeValue::List(NodeList::default()));
+                let list = arena.alloc(NodeValue::List(NodeList::default()).into());
                 for (title, detail) in yaml[0].as_hash().unwrap() {
-                    let item = mknode(&arena, sp, NodeValue::Item(NodeList::default()));
+                    let item = arena.alloc(NodeValue::Item(NodeList::default()).into());
 
-                    let link = mknode(
-                        &arena,
-                        sp,
+                    let link = arena.alloc(
                         NodeValue::Link(NodeLink {
                             url: detail["url"].as_str().unwrap().to_string(),
                             title: "".to_string(),
-                        }),
+                        })
+                        .into(),
                     );
                     item.append(link);
-                    link.append(mknode(
-                        &arena,
-                        sp,
-                        NodeValue::Text(title.as_str().unwrap().to_string()),
-                    ));
+                    link.append(
+                        arena.alloc(NodeValue::Text(title.as_str().unwrap().to_string()).into()),
+                    );
 
                     for tag in detail["tags"].as_vec().unwrap() {
-                        item.append(mknode(&arena, sp, NodeValue::Text(" ".to_string())));
+                        item.append(arena.alloc(NodeValue::Text(" ".to_string()).into()));
 
-                        let inline = mknode(
-                            &arena,
-                            sp,
-                            NodeValue::HtmlInline(format!("<kbd>{}</kbd>", tag.as_str().unwrap())),
+                        let inline = arena.alloc(
+                            NodeValue::HtmlInline(format!("<kbd>{}</kbd>", tag.as_str().unwrap()))
+                                .into(),
                         );
                         item.append(inline);
                     }
-                    item.append(mknode(&arena, sp, NodeValue::Text(" -- ".to_string())));
+                    item.append(arena.alloc(NodeValue::Text(" -- ".to_string()).into()));
 
                     let description_doc = parse_document(
                         &arena,
@@ -69,7 +60,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                 }
 
                 node.insert_before(list);
-                let blank = mknode(&arena, sp, NodeValue::LineBreak);
+                let blank = arena.alloc(NodeValue::LineBreak.into());
                 node.insert_after(blank);
 
                 node.detach();
