@@ -6,5 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-comrak = { git = "https://github.com/kivikakk/comrak.git", branch = "node-from" }
+comrak = { git = "https://github.com/kivikakk/comrak.git" }
 yaml-rust2 = "0.8"
