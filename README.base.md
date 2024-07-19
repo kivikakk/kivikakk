@@ -52,6 +52,11 @@ koino:
 ### Misc
 
 ```yaml
+vyxos:
+  url: https://github.com/kivikakk/vyxos
+  tags: ["nix"]
+  description: My laptop and server Nix configuration.
+
 htmlentities.zig:
   url: https://github.com/kivikakk/htmlentities.zig
   tags: ["zig", "library"]
