@@ -10,16 +10,10 @@ Niar:
   tags: ["amaranth", "python"]
   description: framework for building Amaranth projects
 
-Sae:
-  url: https://github.com/kivikakk/sae
-  tags: ["amaranth"]
-  description: RV32I softcore
-
-ili9341spi:
-  url: https://github.com/kivikakk/ili9341spi
-  tags: ["amaranth", "zig", "driver"]
-  description: |
-    previous testbed for Niar: ILI9341 SPI LCD driver, plus virtual hardware testbench
+Ava:
+  url: https://sr.ht/~kivikakk/ava
+  tags: ["amaranth", "python", "basic"]
+  description: BASIC compiler, stack machine and SoC
 
 zxxrtl:
   url: https://github.com/kivikakk/zxxrtl
@@ -79,6 +73,17 @@ I only have so much time. Please feel free to write to me if you have any questi
 ### Digital design
 
 ```yaml
+Sae:
+  url: https://github.com/kivikakk/sae
+  tags: ["amaranth"]
+  description: RV32I softcore -- testbed for Niar
+
+ili9341spi:
+  url: https://github.com/kivikakk/ili9341spi
+  tags: ["amaranth", "zig", "driver"]
+  description: |
+    previous testbed for Niar: ILI9341 SPI LCD driver, plus virtual hardware testbench
+
 Chryse:
   url: https://github.com/kivikakk/chryse
   tags: ["chisel", "scala"]
@@ -87,7 +92,7 @@ Chryse:
 sh1107:
   url: https://github.com/kivikakk/sh1107
   tags: ["amaranth", "zig", "driver"]
-  description: (WIP) SH1107 OLED driver, plus the I²C driver it uses, with virtual hardware testbench
+  description: SH1107 OLED driver, plus the I²C driver it uses, with virtual hardware testbench
   
 i2c_obs:
   url: https://github.com/kivikakk/i2c_obs
