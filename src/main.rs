@@ -71,7 +71,8 @@ fn main() -> Result<(), Box<dyn Error>> {
     let mut options = Options::default();
     options.render.list_style = comrak::ListStyleType::Star;
 
-    format_commonmark(root, &options, &mut std::io::stdout().lock())?;
+    let mut f = std::fs::File::create("README.md")?;
+    format_commonmark(root, &options, &mut f)?;
 
     Ok(())
 }
