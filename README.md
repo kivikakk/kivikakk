@@ -58,6 +58,6 @@ Thanks to my co-authors. :)
 ## Who?
 
 * Asherah (or Ashe) is my primary name.
-* Charlotte (`@charlottia`) was our working name while starting out with gateware and Nix, and
-  sometimes still is. :)
+* Charlotte ([@charlottia](https://github.com/charlottia)) was our working name while starting out
+  with gateware and Nix, and sometimes still is. :)
 * Amelia is an [other name](https://kivikakk.ee/eesti/2024/04/29/naming/) which is still seen in plenty of places, but it's being [phased out](https://kivikakk.ee/eesti/2024/05/01/volbrip%C3%A4ev/).
