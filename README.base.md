@@ -192,12 +192,6 @@ TheConner/diesel_ltree:
   description: PostgreSQL [ltree extension](https://www.postgresql.org/docs/current/ltree.html) support for [Diesel](https://diesel.rs/)
 ```
 
-## Who?
+## Co-author
 
-* Asherah (or Ashe) is my primary name.
-* Charlotte ([@charlottia](https://github.com/charlottia)) was our working name while starting out
-  with gateware and Nix, and sometimes still is. :)
-* Amelia is an [other name] which is still seen in plenty of places, but it's being [phased out].
-
-[other name]: https://kivikakk.ee/eesti/2024/04/29/naming/
-[phased out]: https://kivikakk.ee/eesti/2024/05/01/volbrip%C3%A4ev/
+[`charlottia`](https://github.com/charlottia) works mostly on Nix and FPGA stuff.

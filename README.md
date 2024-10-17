@@ -55,9 +55,6 @@ I only have so much time. Please feel free to write to me if you have any questi
 Thanks to my co-authors. :)
 
 * [TheConner/diesel\_ltree](https://github.com/TheConner/diesel_ltree) <kbd>rust</kbd> <kbd>library</kbd> -- PostgreSQL [ltree extension](https://www.postgresql.org/docs/current/ltree.html) support for [Diesel](https://diesel.rs/)
-## Who?
+## Co-author
 
-* Asherah (or Ashe) is my primary name.
-* Charlotte ([@charlottia](https://github.com/charlottia)) was our working name while starting out
-  with gateware and Nix, and sometimes still is. :)
-* Amelia is an [other name](https://kivikakk.ee/eesti/2024/04/29/naming/) which is still seen in plenty of places, but it's being [phased out](https://kivikakk.ee/eesti/2024/05/01/volbrip%C3%A4ev/).
+[`charlottia`](https://github.com/charlottia) works mostly on Nix and FPGA stuff.
