@@ -2,10 +2,6 @@
 
 Hi there!
 
-## Co-author
-
-[Charlotte](https://github.com/charlottia) works mostly on Nix and FPGA stuff.
-
 ### Digital design
 
 ```yaml
@@ -196,3 +192,6 @@ TheConner/diesel_ltree:
   description: PostgreSQL [ltree extension](https://www.postgresql.org/docs/current/ltree.html) support for [Diesel](https://diesel.rs/)
 ```
 
+## Co-author
+
+[Charlotte](https://github.com/charlottia) works mostly on Nix and FPGA stuff.

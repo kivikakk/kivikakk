@@ -2,10 +2,6 @@
 
 Hi there\!
 
-## Co-author
-
-[Charlotte](https://github.com/charlottia) works mostly on Nix and FPGA stuff.
-
 ### Digital design
 
 * [Ava](https://github.com/charlottia/ava) <kbd>amaranth</kbd> <kbd>python</kbd> <kbd>basic</kbd> -- BASIC compiler, stack machine and SoC
@@ -59,3 +55,6 @@ I only have so much time. Please feel free to write to me if you have any questi
 Thanks to my co-authors. :)
 
 * [TheConner/diesel\_ltree](https://github.com/TheConner/diesel_ltree) <kbd>rust</kbd> <kbd>library</kbd> -- PostgreSQL [ltree extension](https://www.postgresql.org/docs/current/ltree.html) support for [Diesel](https://diesel.rs/)
+## Co-author
+
+[Charlotte](https://github.com/charlottia) works mostly on Nix and FPGA stuff.
