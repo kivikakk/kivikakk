@@ -2,10 +2,14 @@
 
 Hi there\!
 
+## Co-author
+
+[Charlotte](https://github.com/charlottia) works mostly on Nix and FPGA stuff.
+
 ### Digital design
 
-* [Niar](https://github.com/kivikakk/niar) <kbd>amaranth</kbd> <kbd>python</kbd> -- framework for building Amaranth projects
-* [Ava](https://sr.ht/~kivikakk/ava) <kbd>amaranth</kbd> <kbd>python</kbd> <kbd>basic</kbd> -- BASIC compiler, stack machine and SoC
+* [Ava](https://github.com/charlottia/ava) <kbd>amaranth</kbd> <kbd>python</kbd> <kbd>basic</kbd> -- BASIC compiler, stack machine and SoC
+* [Niar](https://github.com/charlottia/niar) <kbd>amaranth</kbd> <kbd>python</kbd> -- framework for building Amaranth projects
 * [zxxrtl](https://github.com/kivikakk/zxxrtl) <kbd>yosys</kbd> <kbd>zig</kbd> -- bindings to Yosys' CXXRTL for Zig
 ### CommonMark
 
@@ -27,9 +31,9 @@ I only have so much time. Please feel free to write to me if you have any questi
 * [Sae](https://github.com/kivikakk/sae) <kbd>amaranth</kbd> -- RV32I softcore -- testbed for Niar
 * [ili9341spi](https://github.com/kivikakk/ili9341spi) <kbd>amaranth</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- previous testbed for Niar: ILI9341 SPI LCD driver, plus virtual hardware testbench
 * [Chryse](https://github.com/kivikakk/chryse) <kbd>chisel</kbd> <kbd>scala</kbd> -- framework for building Chisel projects
-* [sh1107](https://github.com/kivikakk/sh1107) <kbd>amaranth</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- SH1107 OLED driver, plus the I²C driver it uses, with virtual hardware testbench
-* [i2c\_obs](https://github.com/kivikakk/i2c_obs) <kbd>amaranth</kbd> <kbd>tool</kbd> -- (WIP) I²C clock stretcher
-* [hdx](https://github.com/kivikakk/hdx) <kbd>amaranth</kbd> <kbd>nix</kbd> -- development environment for HDL
+* [sh1107](https://github.com/charlottia/sh1107) <kbd>amaranth</kbd> <kbd>zig</kbd> <kbd>driver</kbd> -- SH1107 OLED driver, plus the I²C driver it uses, with virtual hardware testbench
+* [i2c\_obs](https://github.com/charlottia/i2c_obs) <kbd>amaranth</kbd> <kbd>tool</kbd> -- (WIP) I²C clock stretcher
+* [hdx](https://github.com/charlottia/hdx) <kbd>amaranth</kbd> <kbd>nix</kbd> -- development environment for HDL
 ### Kernel/embedded
 
 * [daintree](https://github.com/kivikakk/daintree) <kbd>zig</kbd> <kbd>kernel</kbd> -- ARMv8-A and RV64GS kernel and UEFI bootloader
@@ -55,6 +59,3 @@ I only have so much time. Please feel free to write to me if you have any questi
 Thanks to my co-authors. :)
 
 * [TheConner/diesel\_ltree](https://github.com/TheConner/diesel_ltree) <kbd>rust</kbd> <kbd>library</kbd> -- PostgreSQL [ltree extension](https://www.postgresql.org/docs/current/ltree.html) support for [Diesel](https://diesel.rs/)
-## Co-author
-
-[`charlottia`](https://github.com/charlottia) works mostly on Nix and FPGA stuff.

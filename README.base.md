@@ -2,18 +2,22 @@
 
 Hi there!
 
+## Co-author
+
+[Charlotte](https://github.com/charlottia) works mostly on Nix and FPGA stuff.
+
 ### Digital design
 
 ```yaml
-Niar:
-  url: https://github.com/kivikakk/niar
-  tags: ["amaranth", "python"]
-  description: framework for building Amaranth projects
-
 Ava:
-  url: https://sr.ht/~kivikakk/ava
+  url: https://github.com/charlottia/ava
   tags: ["amaranth", "python", "basic"]
   description: BASIC compiler, stack machine and SoC
+
+Niar:
+  url: https://github.com/charlottia/niar
+  tags: ["amaranth", "python"]
+  description: framework for building Amaranth projects
 
 zxxrtl:
   url: https://github.com/kivikakk/zxxrtl
@@ -90,17 +94,17 @@ Chryse:
   description: framework for building Chisel projects
 
 sh1107:
-  url: https://github.com/kivikakk/sh1107
+  url: https://github.com/charlottia/sh1107
   tags: ["amaranth", "zig", "driver"]
   description: SH1107 OLED driver, plus the I²C driver it uses, with virtual hardware testbench
   
 i2c_obs:
-  url: https://github.com/kivikakk/i2c_obs
+  url: https://github.com/charlottia/i2c_obs
   tags: ["amaranth", "tool"]
   description: (WIP) I²C clock stretcher
 
 hdx:
-  url: https://github.com/kivikakk/hdx
+  url: https://github.com/charlottia/hdx
   tags: ["amaranth", "nix"]
   description: development environment for HDL
 ```
@@ -192,6 +196,3 @@ TheConner/diesel_ltree:
   description: PostgreSQL [ltree extension](https://www.postgresql.org/docs/current/ltree.html) support for [Diesel](https://diesel.rs/)
 ```
 
-## Co-author
-
-[`charlottia`](https://github.com/charlottia) works mostly on Nix and FPGA stuff.
