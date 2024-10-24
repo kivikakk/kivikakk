@@ -8,7 +8,7 @@ Hi there!
 Ava:
   url: https://github.com/charlottia/ava
   tags: ["amaranth", "python", "basic"]
-  description: BASIC compiler, stack machine and SoC
+  description: BASIC compiler, stack machine, SoC and IDE
 
 Niar:
   url: https://github.com/charlottia/niar

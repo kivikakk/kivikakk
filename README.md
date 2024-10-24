@@ -4,7 +4,7 @@ Hi there\!
 
 ### Digital design
 
-* [Ava](https://github.com/charlottia/ava) <kbd>amaranth</kbd> <kbd>python</kbd> <kbd>basic</kbd> -- BASIC compiler, stack machine and SoC
+* [Ava](https://github.com/charlottia/ava) <kbd>amaranth</kbd> <kbd>python</kbd> <kbd>basic</kbd> -- BASIC compiler, stack machine, SoC and IDE
 * [Niar](https://github.com/charlottia/niar) <kbd>amaranth</kbd> <kbd>python</kbd> -- framework for building Amaranth projects
 * [zxxrtl](https://github.com/kivikakk/zxxrtl) <kbd>yosys</kbd> <kbd>zig</kbd> -- bindings to Yosys' CXXRTL for Zig
 ### CommonMark
