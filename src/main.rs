@@ -20,9 +20,12 @@ fn main() -> Result<(), Box<dyn Error>> {
             if ncb.info == "yaml" {
                 let yaml = YamlLoader::load_from_str(&ncb.literal)?;
 
-                let list = arena.alloc(NodeValue::List(NodeList::default()).into());
+                let mut nl = NodeList::default();
+                nl.tight = true;
+
+                let list = arena.alloc(NodeValue::List(nl).into());
                 for (title, detail) in yaml[0].as_hash().unwrap() {
-                    let item = arena.alloc(NodeValue::Item(NodeList::default()).into());
+                    let paragraph = arena.alloc(NodeValue::Paragraph.into());
 
                     let link = arena.alloc(
                         NodeValue::Link(NodeLink {
@@ -31,21 +34,21 @@ fn main() -> Result<(), Box<dyn Error>> {
                         })
                         .into(),
                     );
-                    item.append(link);
+                    paragraph.append(link);
                     link.append(
                         arena.alloc(NodeValue::Text(title.as_str().unwrap().to_string()).into()),
                     );
 
                     for tag in detail["tags"].as_vec().unwrap() {
-                        item.append(arena.alloc(NodeValue::Text(" ".to_string()).into()));
+                        paragraph.append(arena.alloc(NodeValue::Text(" ".to_string()).into()));
 
                         let inline = arena.alloc(
                             NodeValue::HtmlInline(format!("<kbd>{}</kbd>", tag.as_str().unwrap()))
                                 .into(),
                         );
-                        item.append(inline);
+                        paragraph.append(inline);
                     }
-                    item.append(arena.alloc(NodeValue::Text(" -- ".to_string()).into()));
+                    paragraph.append(arena.alloc(NodeValue::Text(" -- ".to_string()).into()));
 
                     let description_doc = parse_document(
                         &arena,
@@ -53,16 +56,16 @@ fn main() -> Result<(), Box<dyn Error>> {
                         &Options::default(),
                     );
                     for description_node in description_doc.first_child().unwrap().children() {
-                        item.append(description_node);
+                        paragraph.append(description_node);
                     }
+
+                    let item = arena.alloc(NodeValue::Item(nl).into());
+                    item.append(paragraph);
 
                     list.append(item);
                 }
 
                 node.insert_before(list);
-                let blank = arena.alloc(NodeValue::LineBreak.into());
-                node.insert_after(blank);
-
                 node.detach();
             }
         }
@@ -70,6 +73,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     let mut options = Options::default();
     options.render.list_style = comrak::ListStyleType::Star;
+    options.render.experimental_minimize_commonmark = true;
 
     let mut f = std::fs::File::create("README.md")?;
     format_commonmark(root, &options, &mut f)?;
