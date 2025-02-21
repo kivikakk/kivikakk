@@ -48,7 +48,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                         );
                         paragraph.append(inline);
                     }
-                    paragraph.append(arena.alloc(NodeValue::Text(" -- ".to_string()).into()));
+                    paragraph.append(arena.alloc(NodeValue::Text(" — ".to_string()).into()));
 
                     let description_doc = parse_document(
                         &arena,

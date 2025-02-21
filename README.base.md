@@ -1,20 +1,10 @@
 ## Welcome
 
-Hi there!
+Hi :)
 
 ### Digital design
 
 ```yaml
-Ava:
-  url: https://github.com/charlottia/ava
-  tags: ["amaranth", "python", "basic"]
-  description: BASIC compiler, stack machine, SoC and IDE
-
-Niar:
-  url: https://github.com/charlottia/niar
-  tags: ["amaranth", "python"]
-  description: framework for building Amaranth projects
-
 zxxrtl:
   url: https://github.com/kivikakk/zxxrtl
   tags: ["yosys", "zig"]
@@ -35,7 +25,7 @@ gjtorikian/commonmarker:
   url: https://github.com/gjtorikian/commonmarker
   tags: ["ruby", "library"]
   description: |
-    GitHub Flavored Markdown implementation; wraps Comrak in 1.x series
+    GitHub Flavored Markdown implementation; wraps Comrak
 
 koino:
   url: https://github.com/kivikakk/koino
@@ -68,11 +58,19 @@ furpoll:
 
 ## Archived
 
-I only have so much time. Please feel free to write to me if you have any questions, or if you're interested in adopting a project!
-
 ### Digital design
 
 ```yaml
+Ava:
+  url: https://github.com/charlottia/ava
+  tags: ["amaranth", "python", "basic"]
+  description: BASIC compiler, stack machine, SoC and IDE
+
+Niar:
+  url: https://github.com/charlottia/niar
+  tags: ["amaranth", "python"]
+  description: framework for building Amaranth projects
+
 Sae:
   url: https://github.com/kivikakk/sae
   tags: ["amaranth"]
@@ -97,7 +95,7 @@ sh1107:
 i2c_obs:
   url: https://github.com/charlottia/i2c_obs
   tags: ["amaranth", "tool"]
-  description: (WIP) I²C clock stretcher
+  description: I²C clock stretcher
 
 hdx:
   url: https://github.com/charlottia/hdx
