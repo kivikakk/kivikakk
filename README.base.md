@@ -37,7 +37,7 @@ koino:
 
 ```yaml
 vyxos:
-  url: https://github.com/kivikakk/vyxos
+  url: https://git.sr.ht/~kivikakk/vyxos
   tags: ["nix"]
   description: My laptop and server Nix configuration.
 

@@ -14,7 +14,7 @@ Hi :)
 
 ### Misc
 
-* [vyxos](https://github.com/kivikakk/vyxos) <kbd>nix</kbd> — My laptop and server Nix configuration.
+* [vyxos](https://git.sr.ht/~kivikakk/vyxos) <kbd>nix</kbd> — My laptop and server Nix configuration.
 * [htmlentities.zig](https://github.com/kivikakk/htmlentities.zig) <kbd>zig</kbd> <kbd>library</kbd> — HTML entity data
 * [libpcre.zig](https://github.com/kivikakk/libpcre.zig) <kbd>zig</kbd> <kbd>library</kbd> — bindings to libpcre
 * [furpoll](https://github.com/kivikakk/furpoll) <kbd>nix</kbd> <kbd>furry</kbd> — polls your FurAffinity for notes and emails you about it
