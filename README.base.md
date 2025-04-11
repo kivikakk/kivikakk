@@ -1,16 +1,6 @@
 ## Welcome
 
-Hi :)
-
-### Digital design
-
-```yaml
-zxxrtl:
-  url: https://github.com/kivikakk/zxxrtl
-  tags: ["yosys", "zig"]
-  description: |
-    bindings to Yosys' CXXRTL for Zig
-```
+Hi :) My repositories are spread out; there's one or two big repos hosted here, and lots of forks.
 
 ### CommonMark
 
@@ -33,13 +23,28 @@ koino:
   description: GitHub Flavored Markdown implementation (port of Comrak)
 ```
 
+### Digital design
+
+```yaml
+zxxrtl:
+  url: https://github.com/kivikakk/zxxrtl
+  tags: ["yosys", "zig"]
+  description: |
+    bindings to Yosys' CXXRTL for Zig
+```
+
 ### Misc
 
 ```yaml
-vyxos:
-  url: https://git.sr.ht/~kivikakk/vyxos
+VyxOS:
+  url: https://nossa.ee/~talya/vyxos
   tags: ["nix"]
-  description: My laptop and server Nix configuration.
+  description: my laptop and server Nix configuration
+
+comenzar:
+  url: https://nossa.ee/~talya/comenzar
+  tags: ["ruby"]
+  description: my personal search assistant
 
 htmlentities.zig:
   url: https://github.com/kivikakk/htmlentities.zig

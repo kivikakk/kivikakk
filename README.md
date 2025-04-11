@@ -1,10 +1,6 @@
 ## Welcome
 
-Hi :)
-
-### Digital design
-
-* [zxxrtl](https://github.com/kivikakk/zxxrtl) <kbd>yosys</kbd> <kbd>zig</kbd> — bindings to Yosys' CXXRTL for Zig
+Hi :) My repositories are spread out; there's one or two big repos hosted here, and lots of forks.
 
 ### CommonMark
 
@@ -12,9 +8,14 @@ Hi :)
 * [gjtorikian/commonmarker](https://github.com/gjtorikian/commonmarker) <kbd>ruby</kbd> <kbd>library</kbd> — GitHub Flavored Markdown implementation; wraps Comrak
 * [koino](https://github.com/kivikakk/koino) <kbd>zig</kbd> <kbd>library</kbd> — GitHub Flavored Markdown implementation (port of Comrak)
 
+### Digital design
+
+* [zxxrtl](https://github.com/kivikakk/zxxrtl) <kbd>yosys</kbd> <kbd>zig</kbd> — bindings to Yosys' CXXRTL for Zig
+
 ### Misc
 
-* [vyxos](https://git.sr.ht/~kivikakk/vyxos) <kbd>nix</kbd> — My laptop and server Nix configuration.
+* [VyxOS](https://nossa.ee/~talya/vyxos) <kbd>nix</kbd> — my laptop and server Nix configuration
+* [comenzar](https://nossa.ee/~talya/comenzar) <kbd>ruby</kbd> — my personal search assistant
 * [htmlentities.zig](https://github.com/kivikakk/htmlentities.zig) <kbd>zig</kbd> <kbd>library</kbd> — HTML entity data
 * [libpcre.zig](https://github.com/kivikakk/libpcre.zig) <kbd>zig</kbd> <kbd>library</kbd> — bindings to libpcre
 * [furpoll](https://github.com/kivikakk/furpoll) <kbd>nix</kbd> <kbd>furry</kbd> — polls your FurAffinity for notes and emails you about it
