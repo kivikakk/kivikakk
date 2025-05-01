@@ -1,8 +1,8 @@
 [package]
-name = "kivikakk"
+name = "kvreadme"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-comrak = { git = "https://github.com/kivikakk/comrak.git", branch = "lotte-minimize-cm" }
+comrak = "0.39"
 yaml-rust2 = "0.8"

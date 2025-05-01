@@ -1,63 +1,38 @@
 {
-  description = "Build a cargo project";
+  description = "kivikakk";
 
   inputs = {
-    nixpkgs.url = github:NixOS/nixpkgs/nixpkgs-unstable;
-
-    crane = {
-      url = "github:ipetkov/crane";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
-    fenix = {
-      url = "github:nix-community/fenix";
-      inputs.nixpkgs.follows = "nixpkgs";
-      inputs.rust-analyzer-src.follows = "";
-    };
-
-    flake-utils.url = github:numtide/flake-utils;
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
+    flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs, crane, fenix, flake-utils, ... }:
-    flake-utils.lib.eachDefaultSystem (system:
+  outputs =
+    {
+      self,
+      nixpkgs,
+      flake-utils,
+      ...
+    }:
+    flake-utils.lib.eachDefaultSystem (
+      system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
-
-        inherit (pkgs) lib;
-
-        craneLib = crane.mkLib pkgs;
-        src = craneLib.cleanCargoSource ./.;
-
-        commonArgs = {
-          inherit src;
-          strictDeps = true;
-        };
-
-        craneLibLLvmTools = craneLib.overrideToolchain
-          (fenix.packages.${system}.complete.withComponents [
-            "cargo"
-            "llvm-tools"
-            "rustc"
-          ]);
-
-        cargoArtifacts = craneLib.buildDepsOnly commonArgs;
-
-        kvreadme = craneLib.buildPackage (commonArgs // { inherit cargoArtifacts; });
       in
-      {
-        checks = {
-          inherit kvreadme;
-          kvreadme-fmt = craneLib.cargoFmt { inherit src; };
-        };
+      rec {
+        formatter = pkgs.nixfmt-rfc-style;
 
-        packages.default = kvreadme;
+        packages.default = pkgs.rustPlatform.buildRustPackage {
+          pname = "kvreadme";
+          version = "0.1.0";
+
+          src = ./.;
+
+          cargoHash = "sha256-w0HcCzs3YWmj1SKmuSBgryplZtFJ+ANgs0gis/hRw9Y=";
+        };
 
         apps.default = flake-utils.lib.mkApp {
-          drv = kvreadme;
+          drv = packages.default;
         };
-
-        devShells.default = craneLib.devShell {
-          checks = self.checks.${system};
-        };
-      });
+      }
+    );
 }
