@@ -27,7 +27,7 @@ koino:
 
 ```yaml
 zxxrtl:
-  url: https://github.com/kivikakk/zxxrtl
+  url: https://nossa.ee/~talya/zxxrtl
   tags: ["yosys", "zig"]
   description: |
     bindings to Yosys' CXXRTL for Zig
@@ -56,7 +56,7 @@ libpcre.zig:
   tags: ["zig", "library"]
   description: bindings to libpcre
 furpoll:
-  url: https://github.com/kivikakk/furpoll
+  url: https://nossa.ee/~talya/furpoll
   tags: ["nix", "furry"]
   description: polls your FurAffinity for notes and emails you about it
 ```
@@ -77,18 +77,18 @@ Niar:
   description: framework for building Amaranth projects
 
 Sae:
-  url: https://github.com/kivikakk/sae
+  url: https://nossa.ee/~talya/sae
   tags: ["amaranth"]
   description: RV32I softcore -- testbed for Niar
 
 ili9341spi:
-  url: https://github.com/kivikakk/ili9341spi
+  url: https://nossa.ee/~talya/ili9341spi
   tags: ["amaranth", "zig", "driver"]
   description: |
     previous testbed for Niar: ILI9341 SPI LCD driver, plus virtual hardware testbench
 
 Chryse:
-  url: https://github.com/kivikakk/chryse
+  url: https://nossa.ee/~talya/chryse
   tags: ["chisel", "scala"]
   description: framework for building Chisel projects
 
@@ -112,7 +112,7 @@ hdx:
 
 ```yaml
 daintree:
-  url: https://github.com/kivikakk/daintree
+  url: https://nossa.ee/~talya/daintree
   tags: ["zig", "kernel"]
   description: ARMv8-A and RV64GS kernel and UEFI bootloader
 
@@ -122,12 +122,12 @@ dtb.zig:
   description: device tree blob (flattened device tree) parser
 
 armv8a:
-  url: https://github.com/kivikakk/armv8a
+  url: https://nossa.ee/~talya/armv8a
   tags: ["ruby", "tool"]
   description: some calculators to help with ARMv8a debugging
 
 akari:
-  url: https://github.com/kivikakk/akari
+  url: https://nossa.ee/~talya/akari
   tags: ["c++", "kernel"]
   description: baby's first Real C++ microkernel (antique)
 ```
@@ -145,22 +145,22 @@ cmark-gfm-hs:
 
 ```yaml
 beffast:
-  url: https://github.com/kivikakk/beffast
+  url: https://nossa.ee/~talya/beffast
   tags: ["arduino", "eink"]
   description: has Lily been fed yet?
 
 recogedor:
-  url: https://github.com/kivikakk/recogedor
+  url: https://nossa.ee/~talya/recogedor
   tags: ["rust", "imap", "nix"]
   description: cursed IMAP forwarding service containing a Lisp and bytecode VM
 
 kaksikud:
-  url: https://github.com/kivikakk/kaksikud
+  url: https://nossa.ee/~talya/kaksikud
   tags: ["zig", "library"]
   description: a Gemini server framework
 
 golex:
-  url: https://github.com/kivikakk/golex
+  url: https://nossa.ee/~talya/golex
   tags: ["go", "tool"]
   description: flex but Go (antique)
 
@@ -174,12 +174,12 @@ what-version-of-asciidoctor-is-github-on:
 
 ```yaml
 ex-markdown:
-  url: https://github.com/kivikakk/ex-markdown
+  url: https://nossa.ee/~talya/ex-markdown
   tags: ["elixir", "library"]
   description: my fork of [ex-markdown](https://gitlab.com/nathanfaucett/ex-markdown) targetting modern Comrak
 
 akkoma:
-  url: https://github.com/kivikakk/akkoma
+  url: https://nossa.ee/~talya/akkoma
   tags: ["elixir", "activitypub"]
   description: my fork of [Akkoma](https://akkoma.dev/AkkomaGang/akkoma/)
 ```
