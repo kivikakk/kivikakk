@@ -18,7 +18,7 @@ gjtorikian/commonmarker:
     GitHub Flavored Markdown implementation; wraps Comrak
 
 koino:
-  url: https://github.com/kivikakk/koino
+  url: https://nossa.ee/~talya/koino
   tags: ["zig", "library"]
   description: GitHub Flavored Markdown implementation (port of Comrak)
 ```
@@ -36,8 +36,8 @@ zxxrtl:
 ### Misc
 
 ```yaml
-VyxOS:
-  url: https://nossa.ee/~talya/vyxos
+vyx:
+  url: https://nossa.ee/~talya/vyx
   tags: ["nix"]
   description: my laptop and server Nix configuration
 
@@ -47,12 +47,12 @@ comenzar:
   description: my personal search assistant
 
 htmlentities.zig:
-  url: https://github.com/kivikakk/htmlentities.zig
+  url: https://nossa.ee/~talya/htmlentities.zig
   tags: ["zig", "library"]
   description: HTML entity data
 
 libpcre.zig:
-  url: https://github.com/kivikakk/libpcre.zig
+  url: https://nossa.ee/~talya/libpcre.zig
   tags: ["zig", "library"]
   description: bindings to libpcre
 furpoll:
