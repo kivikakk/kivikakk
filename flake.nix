@@ -3,25 +3,29 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
-    flake-utils.url = "github:numtide/flake-utils";
   };
 
   outputs =
     {
       self,
       nixpkgs,
-      flake-utils,
-      ...
     }:
-    flake-utils.lib.eachDefaultSystem (
-      system:
-      let
-        pkgs = nixpkgs.legacyPackages.${system};
-      in
-      rec {
-        formatter = pkgs.nixfmt-rfc-style;
+    let
+      systems = [
+        "aarch64-darwin"
+        "aarch64-linux"
+        "x86_64-darwin"
+        "x86_64-linux"
+      ];
+      eachSystem = nixpkgs.lib.genAttrs systems;
+    in
+    rec {
+      formatter = eachSystem (system: nixpkgs.legacyPackages.${system}.nixfmt-rfc-style);
 
-        packages.default = pkgs.rustPlatform.buildRustPackage {
+      packages = eachSystem (system: rec {
+        default = kvreadme;
+
+        kvreadme = nixpkgs.legacyPackages.${system}.rustPlatform.buildRustPackage {
           pname = "kvreadme";
           version = "0.1.0";
 
@@ -29,10 +33,8 @@
 
           cargoHash = "sha256-w0HcCzs3YWmj1SKmuSBgryplZtFJ+ANgs0gis/hRw9Y=";
         };
+      });
 
-        apps.default = flake-utils.lib.mkApp {
-          drv = packages.default;
-        };
-      }
-    );
+      devShells = packages;
+    };
 }
