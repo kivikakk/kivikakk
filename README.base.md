@@ -1,6 +1,7 @@
 ## Welcome
 
 Hi :) My repositories are spread out; there's one or two big repos hosted here, and lots of forks.
+Most of my smaller work is at [nóssa](https://nossa.ee/~talya).
 
 ### CommonMark
 
@@ -9,18 +10,19 @@ Comrak:
   url: https://github.com/kivikakk/comrak
   tags: ["rust", "library"]
   description: |
-    GitHub Flavored Markdown implementation, used by Reddit, docs.rs, crates.io, and many more
+    CommonMark + GFM implementation, used by Reddit, docs.rs, crates.io, GitLab, and many more
 
 gjtorikian/commonmarker:
   url: https://github.com/gjtorikian/commonmarker
   tags: ["ruby", "library"]
   description: |
-    GitHub Flavored Markdown implementation; wraps Comrak
+    CommonMark + GFM implementation; wraps Comrak
 
 koino:
   url: https://nossa.ee/~talya/koino
   tags: ["zig", "library"]
-  description: GitHub Flavored Markdown implementation (port of Comrak)
+  description: |
+    CommonMark + GFM implementation (port of Comrak)
 ```
 
 ### Digital design
@@ -39,7 +41,7 @@ zxxrtl:
 vyx:
   url: https://nossa.ee/~talya/vyx
   tags: ["nix"]
-  description: my laptop and server Nix configuration
+  description: my laptop & server Nix configuration, and cluster Flux CD configuration
 
 comenzar:
   url: https://nossa.ee/~talya/comenzar

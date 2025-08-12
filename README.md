@@ -1,12 +1,13 @@
 ## Welcome
 
 Hi :) My repositories are spread out; there's one or two big repos hosted here, and lots of forks.
+Most of my smaller work is at [nóssa](https://nossa.ee/~talya).
 
 ### CommonMark
 
-* [Comrak](https://github.com/kivikakk/comrak) <kbd>rust</kbd> <kbd>library</kbd> — GitHub Flavored Markdown implementation, used by Reddit, docs.rs, crates.io, and many more
-* [gjtorikian/commonmarker](https://github.com/gjtorikian/commonmarker) <kbd>ruby</kbd> <kbd>library</kbd> — GitHub Flavored Markdown implementation; wraps Comrak
-* [koino](https://nossa.ee/~talya/koino) <kbd>zig</kbd> <kbd>library</kbd> — GitHub Flavored Markdown implementation (port of Comrak)
+* [Comrak](https://github.com/kivikakk/comrak) <kbd>rust</kbd> <kbd>library</kbd> — CommonMark + GFM implementation, used by Reddit, docs.rs, crates.io, GitLab, and many more
+* [gjtorikian/commonmarker](https://github.com/gjtorikian/commonmarker) <kbd>ruby</kbd> <kbd>library</kbd> — CommonMark + GFM implementation; wraps Comrak
+* [koino](https://nossa.ee/~talya/koino) <kbd>zig</kbd> <kbd>library</kbd> — CommonMark + GFM implementation (port of Comrak)
 
 ### Digital design
 
@@ -14,7 +15,7 @@ Hi :) My repositories are spread out; there's one or two big repos hosted here, 
 
 ### Misc
 
-* [vyx](https://nossa.ee/~talya/vyx) <kbd>nix</kbd> — my laptop and server Nix configuration
+* [vyx](https://nossa.ee/~talya/vyx) <kbd>nix</kbd> — my laptop & server Nix configuration, and cluster Flux CD configuration
 * [comenzar](https://nossa.ee/~talya/comenzar) <kbd>ruby</kbd> — my personal search assistant
 * [htmlentities.zig](https://nossa.ee/~talya/htmlentities.zig) <kbd>zig</kbd> <kbd>library</kbd> — HTML entity data
 * [libpcre.zig](https://nossa.ee/~talya/libpcre.zig) <kbd>zig</kbd> <kbd>library</kbd> — bindings to libpcre
