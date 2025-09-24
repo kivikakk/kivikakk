@@ -63,7 +63,3 @@ Most of my smaller work is at [nóssa](https://nossa.ee/~talya).
 Thanks to my co-authors. :)
 
 * [TheConner/diesel_ltree](https://github.com/TheConner/diesel_ltree) <kbd>rust</kbd> <kbd>library</kbd> — PostgreSQL [ltree extension](https://www.postgresql.org/docs/current/ltree.html) support for [Diesel](https://diesel.rs/)
-
-## Co-author
-
-[Charlotte](https://github.com/charlottia) works mostly on Nix and FPGA stuff.
