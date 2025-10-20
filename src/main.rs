@@ -1,13 +1,11 @@
-use std::error::Error;
-
 use comrak::{
     format_commonmark,
     nodes::{NodeLink, NodeList, NodeValue},
-    parse_document, Arena, Options,
+    options, parse_document, Arena, Options,
 };
 use yaml_rust2::YamlLoader;
 
-fn main() -> Result<(), Box<dyn Error>> {
+fn main() -> Result<(), Box<dyn std::error::Error>> {
     let arena = Arena::new();
 
     let doc = std::fs::read_to_string("README.base.md")?;
@@ -28,19 +26,24 @@ fn main() -> Result<(), Box<dyn Error>> {
                     let paragraph = arena.alloc(NodeValue::Paragraph.into());
 
                     let link = arena.alloc(
-                        NodeValue::Link(NodeLink {
-                            url: detail["url"].as_str().unwrap().to_string(),
-                            title: "".to_string(),
-                        })
+                        NodeValue::Link(
+                            NodeLink {
+                                url: detail["url"].as_str().unwrap().to_string(),
+                                title: "".into(),
+                            }
+                            .into(),
+                        )
                         .into(),
                     );
                     paragraph.append(link);
                     link.append(
-                        arena.alloc(NodeValue::Text(title.as_str().unwrap().to_string()).into()),
+                        arena.alloc(
+                            NodeValue::Text(title.as_str().unwrap().to_string().into()).into(),
+                        ),
                     );
 
                     for tag in detail["tags"].as_vec().unwrap() {
-                        paragraph.append(arena.alloc(NodeValue::Text(" ".to_string()).into()));
+                        paragraph.append(arena.alloc(NodeValue::Text(" ".into()).into()));
 
                         let inline = arena.alloc(
                             NodeValue::HtmlInline(format!("<kbd>{}</kbd>", tag.as_str().unwrap()))
@@ -48,7 +51,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                         );
                         paragraph.append(inline);
                     }
-                    paragraph.append(arena.alloc(NodeValue::Text(" — ".to_string()).into()));
+                    paragraph.append(arena.alloc(NodeValue::Text(" — ".into()).into()));
 
                     let description_doc = parse_document(
                         &arena,
@@ -72,11 +75,12 @@ fn main() -> Result<(), Box<dyn Error>> {
     }
 
     let mut options = Options::default();
-    options.render.list_style = comrak::ListStyleType::Star;
+    options.render.list_style = options::ListStyleType::Star;
     options.render.experimental_minimize_commonmark = true;
 
-    let mut f = std::fs::File::create("README.md")?;
-    format_commonmark(root, &options, &mut f)?;
+    let f = std::fs::File::create("README.md")?;
+    let mut bw = std::io::BufWriter::new(f);
+    fmt2io::write(&mut bw, |writer| format_commonmark(root, &options, writer))?;
 
     Ok(())
 }
